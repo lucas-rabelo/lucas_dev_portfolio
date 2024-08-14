@@ -1,4 +1,4 @@
-import { LinkedinLogo } from "@phosphor-icons/react";
+import { LinkedinLogo, GithubLogo } from "@phosphor-icons/react";
 import { Container } from "../components/Container";
 import { Title } from "../components/Title";
 
@@ -35,6 +35,9 @@ export function Contact() {
                     <div className="flex items-center justify-between gap-3">
                         <a href="https://www.linkedin.com/in/lucasrabelos/" target="_blank">
                             <LinkedinLogo size={28} color="#FFF" weight="fill" className="cursor-pointer hover:opacity-60 duration-300" />
+                        </a>
+                        <a href="https://www.github.com/lucas-rabelo/" target="_blank">
+                            <GithubLogo size={28} color="#FFF" weight="fill" className="cursor-pointer hover:opacity-60 duration-300" />
                         </a>
                     </div>
                 </div>
